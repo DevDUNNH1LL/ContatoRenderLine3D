@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RenderLine 3D - Serviços e Preços</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>RenderLine 3D</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#packages">Pacotes</a></li>
+                    <li><a href="#working-hours">Horário</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="slider">
+            <div class="slide"><img src="https://media.canva.com/v2/image-resize/format:PNG/height:864/quality:100/uri:s3%3A%2F%2Fmedia-private.canva.com%2FsRreY%2FMAGOcdsRreY%2F1%2Fp.png/watermark:F/width:1536?csig=AAAAAAAAAAAAAAAAAAAAAPbW4vtnLXEIU0vl-dLDhDj3LnOopCBaw1soe_-YJo-l&exp=1724220525&osig=AAAAAAAAAAAAAAAAAAAAAGBvvuCHxqRb_zPgJ9mCSiFJOj93KJ9ZiQt-5EHu1sa7&signer=media-rpc&x-canva-quality=screen_3x" alt="Imagem 1"></div>
+            <div class="slide"><img src="https://source.unsplash.com/random/1600x900?sig=2" alt="Imagem 2"></div>
+            <div class="slide"><img src="https://source.unsplash.com/random/1600x900?sig=3" alt="Imagem 3"></div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+        <div class="indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+        <div class="hero-content">
+            <h2>Transforme Ideias em Realidade com Modelagem e Renderização 3D</h2>
+            <p>Explore soluções criativas e inovadoras para todos os seus projetos.</p>
+            <a href="#contact" class="cta-button">Solicite um Orçamento</a>
+        </div>
+    </section>
+    <main>
+        <section id="services" class="services container">
+            <h3>Serviços</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Preço</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Modelagem 3D SketchUp + Renderização</td>
+                        <td>R$18,75/hora</td>
+                        <td>Mínimo de 8 horas</td>
+                    </tr>
+                    <tr>
+                        <td>Modelagem 3D SolidWorks</td>
+                        <td>R$18,75/hora</td>
+                        <td>Mínimo de 8 horas</td>
+                    </tr>
+                    <tr>
+                        <td>Aperfeiçoamento em Lumion 3D</td>
+                        <td>R$18,75/hora</td>
+                        <td>Mínimo de 8 horas</td>
+                    </tr>
+                    <tr>
+                        <td>Render V-Ray</td>
+                        <td>R$18,75/hora</td>
+                        <td>Mínimo de 8 horas</td>
+                    </tr>
+                    <tr>
+                        <td>Unreal Engine</td>
+                        <td>R$18,75/hora</td>
+                        <td>Mínimo de 8 horas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="packages" class="packages container">
+            <h3>Pacotes</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pacote</th>
+                        <th>Preço</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pacote Básico</td>
+                        <td>R$500,00</td>
+                        <td>Modelagem simples e renderização básica</td>
+                    </tr>
+                    <tr>
+                        <td>Pacote Avançado</td>
+                        <td>R$1000,00</td>
+                        <td>Modelagem detalhada e renderização avançada</td>
+                    </tr>
+                    <tr>
+                        <td>Pacote Premium</td>
+                        <td>R$1500,00</td>
+                        <td>Modelagem complexa e renderização premium</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="working-hours" class="working-hours container">
+            <h3>Horário de Trabalho</h3>
+            <p>De segunda a sexta-feira, das 8:00 às 17:00.</p>
+        </section>
+        <section id="contact" class="contact container">
+            <h3>Contato</h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="message" rows="4" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 RenderLine 3D. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slider = document.querySelector('.slider');
+            const slides = Array.from(slider.children);
+            const prevBtn = document.querySelector('.prev');
+            const nextBtn = document.querySelector('.next');
+            const indicators = Array.from(document.querySelectorAll('.indicator'));
+
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                slider.style.transform = `translateX(-${index * 100}%)`;
+                indicators.forEach((indicator, i) => {
+                    indicator.classList.toggle('active', i === index);
+                });
+            }
+
+            function prevSlide() {
+                currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+                showSlide(currentSlide);
+            }
+
+            function nextSlide() {
+                currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+                showSlide(currentSlide);
+            }
+
+            prevBtn.addEventListener('click', prevSlide);
+            nextBtn.addEventListener('click', nextSlide);
+
+            indicators.forEach((indicator, i) => {
+                indicator.addEventListener('click', () => {
+                    currentSlide = i;
+                    showSlide(currentSlide);
+                });
+            });
+
+            showSlide(currentSlide); // Inicializa o slider na primeira imagem
+        });
+    </script>
+</body>
+</html>
